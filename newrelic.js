@@ -6,7 +6,7 @@
  * See all options: https://docs.newrelic.com/docs/apm/agents/nodejs-agent/configuration/nodejs-agent-configuration/
  */
 exports.config = {
-  app_name: [process.env.NEW_RELIC_APP_NAME || 'MultiTeerFrontEnd'],
+  app_name: [process.env.NEW_RELIC_APP_NAME || 'MultiTeerBackEnd'],
   license_key: process.env.NEW_RELIC_LICENSE_KEY || 'u01xx25097d321270aa1fdc5e6c5734FFFFNRAL', // do NOT hardcode
   distributed_tracing: {
     enabled: true
@@ -25,4 +25,5 @@ exports.config = {
   // },
 };
 ``
+
 
